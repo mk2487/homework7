@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcell Kapas - Portfolio (HW6)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50" tabindex="0">
+    <header class="header-gradient text-white sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand fw-bold fs-4" href="#">Marcell Kapas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section id="summary" class="mb-5">
+            <h2 class="text-primary text-center mb-3">Summary</h2>
+            <p class="lead text-center">
+                Informatics major at Northern Arizona University. Passionate about technology, problem-solving, and building practical software solutions.
+            </p>
+        </section>
+        <section id="education" class="mb-5">
+            <h2 class="text-primary text-center mb-4">Education</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover align-middle text-center shadow-sm">
+                    <thead class="table-dark">
+                        <tr><th>Institution</th><th>Degree/Field</th><th>Duration</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Northern Arizona University</td><td>Bachelor of Science in Informatics</td><td>2023 - Present</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-5">
+            <h2 class="text-primary text-center mb-4">Experience</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle text-center shadow-sm">
+                    <thead class="table-light fw-bold">
+                        <tr><th>Classes / Experience</th><th>Role</th><th>Duration</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CS 105, 126, 136, 200, 205, 212, 305</td>
+                            <td>Informatics Student</td>
+                            <td>2023 - Present</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="skills" class="mb-5">
+            <h2 class="text-primary text-center mb-4">Skills</h2>
+            <div class="row g-3 text-center">
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">Python</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">Java</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">C++</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">HTML</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">CSS</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">Problem Solving</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">Communication</div></div>
+                <div class="col-md-3 col-sm-6"><div class="badge bg-primary p-3 w-100 fs-6">Innovative Thinking</div></div>
+            </div>
+        </section>
+        <section id="projects" class="mb-5">
+            <h2 class="text-primary text-center mb-4">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="projects.jpg" class="card-img-top" alt="Project screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">Developed a personal portfolio website to showcase projects and skills.</p>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal1">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="homepage2.png" class="card-img-top" alt="Homepage screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Homepage Design</h5>
+                            <p class="card-text">Created a responsive homepage design using HTML and CSS.</p>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="contactpic.png" class="card-img-top" alt="Contact screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Contact Page</h5>
+                            <p class="card-text">Designed a user-friendly contact form layout using modern CSS techniques.</p>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal3">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video" class="mb-5 text-center">
+            <h2 class="text-primary text-center mb-4">Introduction Video</h2>
+            <div class="ratio ratio-16x9 shadow-sm">
+                <iframe src="https://www.youtube.com/embed/IjEmCxRWBRc" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="footer-gradient text-white text-center py-3">
+        <p class="mb-1">
+            Email: <a href="mailto:mk2487@nau.edu" class="text-white text-decoration-underline">mk2487@nau.edu</a> |
+            Phone: <a href="tel:808-276-8613" class="text-white text-decoration-underline">808-276-8613</a> |
+            GitHub: <a href="https://github.com/mk2487" class="text-white text-decoration-underline">github.com/mk2487</a>
+        </p>
+        <a href="https://drive.google.com/file/d/1vlo3JDYiwd0hd0X4Jn9nS0Nye90zkOhF/view?usp=sharing" target="_blank" class="btn btn-light btn-sm mt-2">Download Resume</a>
+    </footer>
+    <div class="modal fade" id="projectModal1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Portfolio Website</h5></div>
+                <div class="modal-body">
+                    A responsive personal website built with HTML, CSS, and Bootstrap to showcase academic and project work.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Homepage Design</h5></div>
+                <div class="modal-body">
+                    A polished homepage layout designed using responsive Bootstrap grid and modern UI effects.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Contact Page</h5></div>
+                <div class="modal-body">
+                    A clean, accessible contact form designed with usability and mobile-first principles.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbarNav',
+            offset: 50
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
